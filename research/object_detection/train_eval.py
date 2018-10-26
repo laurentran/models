@@ -86,7 +86,7 @@ flags.DEFINE_string('input_config_path', '',
                     'Path to an input_reader_pb2.InputReader config file.')
 flags.DEFINE_string('model_config_path', '',
                     'Path to a model_pb2.DetectionModel config file.')
-flags.DEFINE_integer('eval_every_n_steps', 200,
+flags.DEFINE_integer('eval_every_n_steps', 1000,
                      'How often should evaluation happen.')
 
 # for eval:
